@@ -6,7 +6,7 @@ from mtranslate import translate
 import json
 import requests
 
-def handle(msg):a
+def handle(msg):
     content_type, chat_type, chat_id = telepot.glance(msg)
     print(content_type, chat_type, chat_id)
 
